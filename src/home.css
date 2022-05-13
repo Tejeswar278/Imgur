@@ -1,5 +1,12 @@
+.body {
+    margin: 0px;
+}
+
 .container {
-    background-image: url("https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png");
+    background: url("https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png");
+    background-repeat: no-repeat;
+    background-size: 100% 385px;
+    margin: 0%;
     color: white;
 }
 
@@ -24,4 +31,68 @@
 
 .jc-sb {
     justify-content: space-between;
+}
+
+.iconname {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.btn1 {
+    padding: 7px;
+    background-color: #1BB76E;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.searchbar {
+    background-color: #454469;
+    border-radius: 5px;
+    width: 543px;
+    height: 33px;
+    border: 0px;
+    margin-top: 5px;
+    margin-left: 110px;
+    padding-left: 10px;
+    color: white;
+}
+
+.searchbar::placeholder{
+    font-weight: bold;
+    font-size: 15px;
+    color: #717186;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.btn2 {
+    padding: 7px;
+    background-color: #6432F9;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.btn3 {
+    padding: 7px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.btn4 {
+    padding: 7px;
+    background-color: #1BB76E;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 20px;
 }
